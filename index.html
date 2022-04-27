@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href = "http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <title>Etch-A-Sketch</title>
+    <script defer src = "sketch.js"></script>
+</head>
+<body>
+    <div class = "header">
+        <h1>Etch-A-Sketch</h1>
+    </div>
+    <div class = "buttons">
+        <button type = "button" class = "color">Black</button>
+        <button type = "button" class = "color">Random Color</button>
+        <button type = "button" class = "color">Select</button>
+        <button type = "button" class = "color">Eraser</button>
+    </div>
+    <div class="content">
+        <div class = "sidebar">
+            <button type = "button" id = "clear">Clear Board</button>
+            <div class = "dimensions">16 x 16</div>
+            <input type = "range" min = "1" max = "64" value = "16">
+        </div>
+        <div class="grid" grid-template-columns = "repeat(17, 1fr); grid-template-rows: repeat(17,1fr);">
+
+        </div>
+    </div>
+    <div class="footer">
+        Visit my Github
+        <a href = "https://github.com/abodell" target = "blank"><img src = "images/github.png"></a>
+    </div>
+</body>
+</html>
