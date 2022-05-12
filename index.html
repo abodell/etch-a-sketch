@@ -14,18 +14,18 @@
         <h1>Etch-A-Sketch</h1>
     </div>
     <div class = "buttons">
-        <button type = "button" class = "color">Black</button>
-        <button type = "button" class = "color">Random Color</button>
-        <button type = "button" class = "color">Select</button>
-        <button type = "button" class = "color">Eraser</button>
+        <button id = 'black' type = "button" class = "color">Black</button>
+        <button id = 'random' type = "button" class = "color">Random Color</button>
+        <button id = 'select' type = "button" class = "color"><input type = "color" id = "colorwheel" value = "#458922">Select</button>
+        <button id = 'eraser' type = "button" class = "color">Eraser</button>
     </div>
     <div class="content">
         <div class = "sidebar">
             <button type = "button" id = "clear">Clear Board</button>
-            <div class = "dimensions">16 x 16</div>
-            <input id = "slider" type = "range" min = "1" max = "100" value = "16">
+            <div class = "dimensions">17 x 17</div>
+            <input id = "slider" type = "range" min = "1" max = "100" value = "17">
         </div>
-        <div class="grid" grid-template-columns = "repeat(17, 1fr); grid-template-rows: repeat(17,1fr);">
+        <div class="grid">
 
         </div>
     </div>
