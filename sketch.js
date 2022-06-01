@@ -31,7 +31,6 @@ function clearGrid() {
 function paint(event) {
     if (event.type == 'mouseover') {
         event.target.style.backgroundColor = currColor;
-        console.log("I was clicked");
     }
 }
 function makeGrid(dims) {
